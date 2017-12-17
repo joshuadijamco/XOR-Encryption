@@ -1,0 +1,161 @@
+body {
+	background-color: #000;
+}
+
+body, h1, h2, h3, h4, h5 {
+	padding: 0;
+	margin: 0;
+	font-family: Trebuchet MS;
+}
+
+.footer {
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+}
+
+h1 {
+	text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.inputText {
+	padding: 15px;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.5);
+	outline: 0;
+	border: 0;
+	margin: 3px;
+	box-shadow: 7px 7px rgba(0,0,0,0.2);
+}
+
+::placeholder {
+	color: rgba(0,0,0,0.3);
+}
+
+.hexText {
+	font-size: 20px;
+	background-color: rgba(255,155,155,0.75);
+}
+
+#topWrapper {
+	background-color: #204F79; /* #2884c1 */
+	padding: 20px;
+	color: white;
+	padding-top: 50px;
+}
+
+#topSection {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#topLeft {
+	width: 75%;
+	display: inline-block;
+}
+
+#topRight {
+	width: 20%;
+	float: right;
+	display: inline-block;
+	text-align: center;
+}
+
+#middleWrapper {
+	padding: 30px;
+	background-color: #ffa814;
+}
+
+#middleSection {
+	width: 75%;
+	margin: 0 auto;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+#bottomWrapper {
+	color: white;
+	padding: 20px;
+	background-color: #2884c1;
+}
+
+#bottomSection {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#botterWrapper {
+	background-color: #239E34;
+	padding: 30px;
+	color: white;
+}
+
+#styled {
+	padding: 10px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	border: 0;
+	outline: 0;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#tble {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	outline: 5px solid rgba(255,255,255,0.5);
+	border: 3px solid black;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+td {
+	padding: 5px;
+	border: 0;
+}
+
+tr {
+	border: 0;
+}
+
+.main tr:nth-child(even) {
+	background: rgba(255,255,255,0.3);
+}
+
+td.header {
+	font-weight: bold;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.1);
+	color: white;
+}
+
+td.bits {
+
+}
+
+td.rightbor {
+	border-right: 3px solid rgba(0,0,0,0.3);
+}
+
+
+.courier {
+	font-family:;
+}
+
+.lastChar {
+	margin: 0 auto;
+	border: 5px solid rgba(0,0,0,0.2);
+	font-size: 22px;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.lastCharTD {
+	background-color: rgba(255,255,255,0.4);
+}
